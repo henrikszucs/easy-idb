@@ -166,7 +166,7 @@ import idb from "/src/idb.js";
     db.close();
 
 
-
+    console.log("All tests passed!");
 return;
 
 
