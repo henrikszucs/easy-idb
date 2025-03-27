@@ -40,7 +40,7 @@ await idb.TableDel("my_database", "my_table");  // delete table and data in data
 
 
 idb.TableKeys(db);  // list exist tables in database e.g. ["my_table1", "my_table2"]
-const table = idb.TableGet(db);   // get exist tables in database and return table object
+const table = idb.TableGet(db, "my_table1");   // get exist tables in database and return table object
 table.transaction.abort();          // close table if need
 table.transaction.db.close()        // close table and database from table
 ```
