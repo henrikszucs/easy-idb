@@ -1,0 +1,30 @@
+{
+    "name": "easy-idb",
+    "version": "0.0.1",
+    "description": "JavaScript library that provide high level and easy to use API to the IndexedDB feaure.",
+    "keywords": [
+        "javascript",
+        "indexeddb",
+		"idb",
+		"storage"
+    ],
+    "license": "GPL-2.0 license",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/henrikszucs/easy-csv"
+    },
+    "bugs": "https://github.com/henrikszucs/easy-csv/issues",
+    "maintainers": [
+        {
+            "name": "Henrik Szucs",
+            "email": "henrikszucs6@gmail.com"
+        }
+    ],
+    "scripts": {
+        "dev-server": "node dev/dev-server.js"
+    },
+    "type": "module",
+    "exports": {
+        ".": "./src/idb.js"
+    }
+}
