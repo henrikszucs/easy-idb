@@ -1,6 +1,6 @@
-# easy-csv
+# easy-idb
 
-JavaScript library that provide high level and easy to use API to the IndexedDB feaure.
+JavaScript library that provide high level and easy to use async API to the IndexedDB feaure.
 
 ## Install
 
@@ -34,7 +34,7 @@ db2.close(); //close database
 ### Table actions
 ```js
 
-await idb.DatabaseClear("my_database");     // clear all table and data in database (only if database not opened)
+await idb.DatabaseClear("my_database");         // clear all table and data in database (only if database not opened)
 await idb.TableSet("my_database", "my_table");  // create table in database (only if database not opened)
 await idb.TableDel("my_database", "my_table");  // delete table and data in database (only if database not opened)
 
