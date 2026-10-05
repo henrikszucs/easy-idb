@@ -1,6 +1,6 @@
 {
     "name": "easy-idb",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "description": "JavaScript library that provide high level and easy to use API to the IndexedDB feaure.",
     "keywords": [
@@ -9,7 +9,7 @@
         "idb",
         "storage"
     ],
-    "license": "GPL-2.0 license",
+    "license": "LGPL-3.0-only",
     "repository": {
         "type": "git",
         "url": "https://github.com/henrikszucs/easy-idb"

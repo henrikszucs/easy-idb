@@ -1,4 +1,4 @@
-/*! easy-idb v1.0.0 | GPL-2.0 license | https://github.com/henrikszucs/easy-idb */
+/*! easy-idb v1.0.1 | LGPL-3.0-only | https://github.com/henrikszucs/easy-idb */
 
 // src/idb.js
 var promisifyRequest = function(request) {

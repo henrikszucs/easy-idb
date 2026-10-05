@@ -7,7 +7,7 @@ JavaScript library that provide high level and easy to use async API to the Inde
 The npm name `easy-idb` belongs to another package, so install this one from GitHub:
 
 ```
-npm install github:henrikszucs/easy-idb#v1.0.0
+npm install github:henrikszucs/easy-idb#v1.0.1
 ```
 
 ```js
@@ -104,3 +104,7 @@ Table
     - Cannot create/delete table in opened database, use run IDBObjectStore.transaction.db.close() to close
     - After get Table object use close() to finish connection IDBObjectStore.transaction.abort() for all IDBObjectStore.transaction.db.close()
     - Delete Table close parent Database
+
+## License
+
+[LGPL-3.0-only](./LICENSE) — see also the referenced [GPL-3.0](./LICENSE.GPL-3.0).
