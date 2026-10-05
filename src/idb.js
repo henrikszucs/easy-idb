@@ -328,6 +328,7 @@ const RowUpdate = async function (table, entries) {
 };
 
     
+export { StorageClear, DatabaseKeys, DatabaseGet, DatabaseSet, DatabaseDel, DatabaseClear, TableKeys, TableGet, TableSet, TableDel, TableClear, RowKeys, RowValues, RowEntries, RowCount, RowGet, RowSet, RowDel, RowUpdate };
 export default {
     StorageClear,
     DatabaseKeys,

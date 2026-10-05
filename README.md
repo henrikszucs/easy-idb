@@ -4,14 +4,42 @@ JavaScript library that provide high level and easy to use async API to the Inde
 
 ## Install
 
-Copy and import the following file:
+The npm name `easy-idb` belongs to another package, so install this one from GitHub:
 
-[./src/idb.js](./src/idb.js)
+```
+npm install github:henrikszucs/easy-idb#v1.0.0
+```
+
+```js
+import idb from "easy-idb";                                   // ES module
+import { DatabaseGet } from "easy-idb";                       // or by name
+const idb = require("easy-idb");                              // CommonJS
+```
+
+Or copy one of the prebuilt files from [./dist](./dist):
+
+| File | Format |
+| --- | --- |
+| `idb.js` | ES module |
+| `idb.min.js` | ES module, minified |
+| `idb.cjs` | CommonJS |
+| `idb.iife.min.js` | classic `<script>`, sets the global `IDB` |
+
+The unbuilt source is [./src/idb.js](./src/idb.js) (also importable as `easy-idb/src`).
+
+## Build
+
+```
+npm install
+npm run build
+```
+
+The build writes every file above into `dist` with [esbuild](https://esbuild.github.io); the `.min.js` files come with source maps that point back to `src`.
 
 ## Usage
 ### Import
 ```js
-import idb from "/src/idb.js";
+import idb from "easy-idb";
 ```
 
 ### Database actions
